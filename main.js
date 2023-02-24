@@ -110,6 +110,46 @@
     console.log({ noHacerNadaTampoco });
 })();
 (() => {
+    let flash = {
+        name: 'Barry Allen',
+        age: 24,
+        powers: [1, 2]
+    };
+    let superman = {
+        name: 'Clark Kent',
+        age: 60,
+        powers: ['Super velocidad']
+    };
+})();
+(() => {
+    let flash = {
+        name: 'Barry Allen',
+        age: 24,
+        powers: ['Super Velocidad', 'Viajar en el Tiempo']
+    };
+    let superman = {
+        name: 'Clark Kent',
+        age: 60,
+        powers: ['Super velocidad'],
+        getName() {
+            return this.name;
+        }
+    };
+    console.log(superman);
+})();
+(() => {
+    let myCustomVariable = 'Fernando';
+    console.log(typeof myCustomVariable);
+    myCustomVariable = 20;
+    console.log(typeof myCustomVariable);
+    myCustomVariable = {
+        name: 'Bruce',
+        age: 43,
+        powers: [1]
+    };
+    console.log(typeof myCustomVariable);
+})();
+(() => {
     const batimovil = {
         carroceria: "Negra",
         modelo: "6x6",
