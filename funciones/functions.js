@@ -16,3 +16,4 @@
     const mensaActivada = activateBatisignal();
     console.log({ heroName, mensaActivada });
 })();
+//# sourceMappingURL=functions.js.map

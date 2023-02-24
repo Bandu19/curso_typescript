@@ -22,3 +22,4 @@
     const supermanPrueba = fullNamePrueba('Bruce', 16, 178, 19.445);
     console.log({ supermanPrueba });
 })();
+//# sourceMappingURL=args-rest.js.map

@@ -23,3 +23,4 @@
     prueba = pruebaUndefined;
     console.log(prueba());
 })();
+//# sourceMappingURL=type-functions.js.map

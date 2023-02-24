@@ -13,3 +13,4 @@
     const fecha = fechaNacimiento(11, 'Octubre', 2003, false);
     console.log({ fecha });
 })();
+//# sourceMappingURL=args-required.js.map

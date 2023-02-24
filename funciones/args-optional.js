@@ -10,3 +10,4 @@
     const name = fullName('Tony', 'Starw');
     console.log({ name });
 })();
+//# sourceMappingURL=args-optional.js.map

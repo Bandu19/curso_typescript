@@ -11,13 +11,13 @@
      */
     const fullName = (fistName, lastName, upper = false) => {
         if (upper) {
-            return `${fistName},${lastName || "NO LAST"}`.toUpperCase();
+            return `${fistName},${lastName || "No lastname"}`.toUpperCase();
         }
         else {
             return `${fistName},${lastName || "No lastname"}`;
         }
     };
-    // const name = fullName('Tony', 'GUS', true)
-    const name = fullName('Tony', true);
+    const name = fullName('Tony', 'GUS', true);
     console.log({ name });
 })();
+//# sourceMappingURL=args-default.js.map

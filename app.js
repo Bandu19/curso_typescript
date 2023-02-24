@@ -14,3 +14,4 @@
     vengadores.edad = 50;
     console.log(vengadores.edad + 1);
 })();
+//# sourceMappingURL=app.js.map

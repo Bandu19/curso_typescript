@@ -11,14 +11,13 @@
     const fullName = (fistName: string, lastName?: string, upper: boolean = false): string => {
 
         if (upper) {
-            return `${fistName},${lastName || "NO LAST"}`.toUpperCase();
+            return `${fistName},${lastName || "No lastname"}`.toUpperCase();
         } else {
             return `${fistName},${lastName || "No lastname"}`
         }
     }
 
-    // const name = fullName('Tony', 'GUS', true)
-    const name = fullName('Tony', true)
+    const name = fullName('Tony', 'GUS', true)
 
     console.log({ name })
 
